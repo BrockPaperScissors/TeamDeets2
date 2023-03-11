@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	/* padding: 2px 0px 2px 0px; */
+	height: 100%;
+}
+
+body {
+	background-color: rgba(111, 111, 231, 80%);
+}
+
+.flex {
+	display: flex;
+}
+
+#homepage-header {
+	justify-content: center;
+	background-color: aqua;
+	height: 10%;
+}
+
+#homepage-header h1 {
+	align-items: center;
+}
+
+#homepage-welcome-banner {
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	background-color: bisque;
+	align-items: center;
+	justify-content: center;
+	padding: 2%;
+}
+
+#homepage-welcome-banner h2,
+h1 {
+	margin: 0;
+}
